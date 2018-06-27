@@ -1,0 +1,323 @@
+body
+{
+	background-image: url("dst.png");
+	background-color:#202020;
+	font-size:30px;
+}
+
+#container
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content
+{
+	float:left;
+	width:40%;
+	margin-top:3%;
+}
+#pomoc
+{
+	width: 40%;
+	float:left;
+}
+
+#zawartosc
+{
+	float:left;
+	width:60%;
+}
+
+#logo
+{
+	font-size:100px;
+margin-top:10%;
+width:150px;
+  height:150px;
+  margin:0 auto;
+  text-align:center;
+  line-height:100px;
+  animation:naszaAnimacja 9s linear infinite;
+  transform-origin:50% 50% 250px;
+}
+
+@keyframes naszaAnimacja
+{
+  0% { transform:perspective(900px) rotateY(0); }
+  100% { transform:perspective(900px) rotateY(360deg); }
+}
+
+.socials
+{
+	clear:both;
+	background-color:#202020;
+	clear:both;
+	width: 100%;
+	text-align: center;
+	border-top: 10px solid maroon;
+	transition-duration: 0.2s;
+}
+.socials:hover
+{
+	
+	border-radius:50px;
+	background-color: #000;
+	border: 10px solid maroon;
+	transition-duration: 0.4s;
+}
+.socialdivs
+{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+		transition-duration: 2s;
+	margin-right:50px;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+	border-radius:100px;
+}
+
+.yt
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+		transition-duration: 2s;
+	margin-right:50px;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+	border-radius:100px;
+
+
+}
+
+.tw
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+		transition-duration: 2s;
+		margin-right:50px;
+}
+
+.tw:hover
+{
+
+	background-color: #3095d3;
+	border-radius:100px;
+
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+input[type=submit]
+{
+	width: 50%;
+	background-color: #800000;
+	color: #000;
+	border: 2px solid #000;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+	margin-bottom:2%;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #000;
+	background-color: #500000;
+	color: #111111;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 50%;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #000;
+	background-color: #ffb0b0;
+	color: #000;
+}
+
+#menu
+{
+
+	margin-top:35px;
+	text-align:center;
+	background-color: #191919;
+	float:left;
+	border-radius: 60px;
+	width:30%;
+}
+
+.leftmenu
+{
+	margin-right:2%;
+	margin-top:10%;
+	text-align:center;
+	font-size: 30px;
+	height: 60px;
+	padding: 15px;
+	text-shadow:
+	2px 2px 0 #000,
+	2px 2px 0 #000,
+	2px 2px 0 #000,
+	2px 2px 0 #000;
+	
+}
+.leftmenu:hover
+{
+	background-color: maroon;
+	color: white;
+	cursor:pointer;
+	border-radius: 60px;
+}
+
+#zegar
+{
+	float:right;
+
+	font-size: 50px;
+	text-align: center;
+	color: maroon;
+	text-shadow:
+	2px 2px 0 #000,
+	-2px 2px 0 #000,
+	-2px -2px 0 #000,
+	2px -2px 0 #000;	
+}
+#footer
+{
+	clear:both;
+	width:100%;
+	color: #fff;
+	background-color: #191919;
+	text-align:center;
+	border-top: 2px solid maroon;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height:200%;
+	display:inline-block;
+}
+
+ol a
+{
+	font-size:30px;
+	list-style: none;
+	color: maroon;
+	text-decoration: none;
+	display: block;
+	text-shadow:
+	2px 2px 0 #000,
+	2px 2px 0 #000,
+	2px 2px 0 #000,
+	2px 2px 0 #000;
+}
+
+ol a:hover
+{
+	color:#fff;
+	display:block;
+}
+ol > li
+{
+	text-align:center;
+	float: left;
+	padding:5px;
+	width: 150px;
+
+}
+
+ol > li:hover
+{
+	background-color: maroon;
+	border-radius:60px;
+}
+
+a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+
+a.menu
+{
+		font-size:30px;
+	color: maroon;
+	text-decoration: none;
+	display: block;
+	text-shadow:
+	2px 2px 0 #000,
+	2px 2px 0 #000,
+	2px 2px 0 #000,
+	2px 2px 0 #000;
+}
+
+a.menu:hover
+{
+	display:block;
+	color: #FFF;
+	border-radius:60px;
+}
+
+
+
+

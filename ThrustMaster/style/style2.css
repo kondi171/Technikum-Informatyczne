@@ -1,0 +1,238 @@
+body
+{
+	background-color: #1a0909;
+	font-size:40px;
+		margin-bottom:0!important;
+}
+
+#wrapper
+{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	width:100%;
+	font-size:120px;
+	text-shadow:
+	2px 2px 0 maroon,
+	-2px 2px 0 maroon,
+	-2px -2px 0 maroon,
+	2px -2px 0 maroon;	
+	margin-bottom: 30px;
+}
+
+#menu
+{
+	margin-top:35px;
+	text-align:center;
+	background-color: #140a0a;
+	float:left;
+	width:30%;
+}
+
+#zegar
+{
+	float: left;
+	margin-left:40px;
+	font-size: 100px;
+	text-align: center;
+	color: maroon;
+	margin-bottom:30px;
+	text-shadow:
+	2px 2px 0 #000,
+	-2px 2px 0 #000,
+	-2px -2px 0 #000,
+	2px -2px 0 #000;	
+}
+
+#content
+{
+	color:white;
+	float:left;
+	width:66%;
+	text-align:justify;
+	margin-left: 40px;
+	margin-bottom:30px;
+	text-shadow:
+	0.5px 0.5px 0 maroon,
+	-0.5px 0.5px 0 maroon,
+	-0.5px -0.5px 0 maroon,
+	0.5px -0.5px 0 maroon;	
+}
+
+.optionL
+{
+	font-size: 30px;
+	height: 60px;
+	padding: 10px;
+	border-bottom: 4px dotted  #1a0909;
+
+}
+
+.optionL:hover
+{
+	background-color: maroon;
+	color: white;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	cursor:pointer;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	background-color: #dadaf5;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #1a0909;
+	background-color:maroon;
+	color: #000;
+	margin-top: 10px;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: maroon;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: 3px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	margin-bottom:30px;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+}
+
+input[type=submit]:hover
+{
+	background-color: #1a0909;
+}
+
+.socials
+{
+	
+	clear:both;
+	width:100%;
+	text-align: center;
+	background-color: #140a0a;
+	border-top: 6px solid maroon;
+}
+
+.socialdivs
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.fb
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+	border-radius:50px;
+	transition-duration: 2s;
+}
+
+.yt
+{
+	margin-left:140px;
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+
+}
+
+.yt:hover
+{
+	transition-duration: 2s;
+	background-color: #d94348;
+	border-radius:50px;
+}
+
+.tw
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+	border-radius:50px;
+	transition-duration: 2s;
+}
+
+.gplus
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+	border-radius:50px;
+	transition-duration: 2s;
+}
+
+a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+
+
+#footer
+{
+	color:white;
+	background-color: #292929;
+	text-align:center;
+}

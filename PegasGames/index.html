@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<title>PegasGames</title>
+		<link href="css/fontello.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		
+		jQuery(function($)
+		{
+			
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#onas'), 500); });
+			$('#link2').click(function() { $.scrollTo($('#klasyki'), 500); });
+			$('#link3').click(function() { $.scrollTo($('#prezentacja'), 500); });
+			$('#link4').click(function() { $.scrollTo($('#autor'), 500); });
+		
+	
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+		alert("Prosimy o wyłączenie AdBlocka dla tej strony. Dziękujemy!");
+		</script>
+	<body>
+			<div id="welcome">
+				<img src="PG.png" style="height:100%; width:100%;" />
+			</div>
+			<div class="nav">
+				<div class="option"><a class="navi" id="link1" href="#onas">O nas</a></div>
+				<div class="option"><a class="navi" id="link2" href="#klasyki">Klasyki</a></div>
+				<div class="option"><a class="navi" id="link3" href="#prezentacja">Prezentacja</a></div>
+				<div class="option"><a class="navi" id="link4" href="#autor">Autor</a></div>
+			</div>
+			<h1 id="onas"></h1>
+			<br>
+			<br>
+			<div id="one">
+			
+			<center><strong><font color="#BB0000"style="font-size:100px; text-shadow:1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000;">O Nas</font></strong></center>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			Integer a odio eu magna scelerisque iaculis id quis ligula.
+			Fusce consequat consequat aliquet. Nunc dignissim, nisi ut 
+			rhoncus convallis, eros nisi congue nulla, et rutrum urna dolor
+			in tellus. Nunc auctor magna vitae diam gravida, quis dapibus justo
+			vehicula. Orci varius natoque penatibus et magnis dis parturient montes,
+			nascetur ridiculus mus. Integer vel nulla nibh. Sed luctus nisi at velit
+			vehicula laoreet.</p>
+			
+					<img src="animacja.png" style="height:100%; width:100%;"/>
+		
+
+			<p>Nullam in quam facilisis, eleifend sem ut, viverra sem.
+			Pellentesque efficitur, dui in ullamcorper fermentum, mauris
+			lacus fermentum dolor, eu dictum sem odio sed tellus. Nam ut 
+			velit ut orci cursus pellentesque. Cras at nisi fermentum, 
+			hendrerit dolor et, tincidunt dui. Nulla ut nulla hendrerit,
+			consectetur metus a, lobortis purus. Fusce gravida tempor maximus.
+			Donec id nisl laoreet, facilisis est eu, varius ligula. Nullam euismod
+			luctus varius. Donec eleifend suscipit magna quis malesuada. Nunc pulvinar 
+			semper justo, non imperdiet dolor malesuada a. Donec turpis eros, aliquam
+			sit amet leo at, aliquet ultrices quam.</p>
+			</div>
+			<h1 id="klasyki"></h1>
+			<br>
+			<br>
+			<center><strong><font color="#BB0000"style="font-size:100px;text-shadow:1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000;">Klasyki NES</font></strong></center>
+			<br><br>
+			<div id="two">
+			
+				<div class="classic1">
+					<a href="http://mario.nintendo.com/" target="_blank" title="Otwórz informacje na temat tej legendarnej gry!">Mario Bros</a>
+				</div>
+					
+				<div class="classic2">
+					<a href="http://www.gry-pegasus.xaa.pl/Contra%20Force.html" target="_blank" title="Zagraj w jedyną w swoim rodzaju Contre!">Contra Force</a>
+				</div>
+			
+				<div class="classic3">
+					<a href="http://pegasus-online.pl/strzelanki/38-tank" target="_blank" title="Zapadnij w nostalgii i daj ponownie urzec się Tankom!">Tank 1990</a>
+				</div>
+				<div class="classic4">
+					<a href="http://pegasus-online.pl/platformowki/15-adventure-island-3" target="_blank" title="Klasyk jakich mało, Adventure Island III!">Adventure Isl.</a>
+				</div>
+			</div>
+	
+			<div id="three">
+			<h1 id="prezentacja"></h1>
+			<br>
+			<br>
+				<center><strong><font color="#BB0000"style="font-size:100px; text-shadow:1px -1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000;">Prezentacja</font></strong></center>
+				<br><br>
+				<center>
+				<iframe style="border: 2px solid maroon;"color="red" width="15%" height="15%" src="https://www.youtube.com/embed/zRbKJrR6KXI"allowfullscreen>
+				</iframe>
+				<p><font color="maroon">Aenean vel ex eu est imperdiet vestibulum et vel sapien. Integer rhoncus elit quis mi hendrerit facilisis.
+				Nunc ac nibh non sapien interdum venenatis. Duis at purus eros. Vestibulum sit amet volutpat lacus, sed ultricies
+				nunc. Duis fringilla sollicitudin urna id posuere. Sed et maximus erat. Nam eu turpis at sapien dignissim 
+				convallis quis in ipsum. Aliquam ultricies libero ac egestas vestibulum. Donec a nulla nisl.</font></p>
+				</center>
+			</div>
+			<br>
+			<br>
+			<h1 id="autor"></h1>
+			<div id="footer">
+			
+			<br>
+				Autor:
+				<br>
+				<div id="autor">
+					<img src="ja.jpg" alt="Autor" style="width:60%; height:80%;" title="Konrad Nowak"/>
+				</div>
+				
+				<div id="contact">
+					Kontakt<br>
+					E-mail: Kondi.171@wp.pl<br>
+					Nr Tel. 795882446
+				</div>
+			
+					<div class="socialdivs">
+						<div class="fb">
+							<a href="http://www.facebook.com" target="_blank" class="tilelink" />
+							<i class="icon-facebook"></a></i>
+						</div>
+					<div class="snap">
+						<a href="http://www.snapchat.com" target="_blank" class="tilelink" />
+						<i class="icon-snapchat-ghost"></a></i>
+					</div>
+					<div class="insta">
+						<a href="http://www.instagram.com" target="_blank" class="tilelink" />
+						<i class="icon-instagram"></a></i>
+					</div>
+	
+					</div>
+				
+			</div>
+			<div id="stop">All rights reserved &copy copyrights 2017</div>
+	<script src="jquery-3.2.1.min.js" ></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+	</script>
+	</body>
+</html>

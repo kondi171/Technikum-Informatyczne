@@ -1,0 +1,206 @@
+body
+{
+    background-image: url("whitey.png");
+    background-color: #fff;
+    font-size: 20px;
+    position: relative;
+  
+}
+
+.find
+{
+    color:green;
+    text-align:center;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.administrator
+{
+    color:green;
+    text-align:center;
+    position:fixed;
+    bottom: 20px;
+    left: 20px;
+   
+}
+a
+{
+    text-decoration: none;
+    color:green;
+    transition-duration: .4s;
+}
+
+a:hover
+{
+    color: red;
+    letter-spacing: 2px;
+    
+}
+td
+{
+    text-align:center;
+}
+
+h1
+{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight:900;
+}
+
+h1::first-letter
+{
+    font-size: 70px;
+    color:green;
+    font-family: cursive;
+}
+.ksiazka::first-letter
+{
+     font-size: 70px;
+    color:maroon;
+    font-family: cursive;
+}
+
+.zamowienie::first-letter
+{
+     font-size: 70px;
+    color:#4130c6;
+    font-family: cursive;
+}
+
+table
+{
+   background: #444;
+}
+
+input[type=text]
+{
+    width:50%;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px;
+}
+input[type=submit]
+{
+    margin-top: 20px;
+    font-size: 50px;
+    width:30%;
+    background: #39bc5c;
+    border-radius: 5px;
+    border: 1px solid #03270d;
+    transition-duration: .4s;
+}
+
+input[type=submit]:hover
+{
+    background: #0d401b;
+    border: 1px solid #000000;
+    color: #39bc5c;
+    letter-spacing: 1px;
+    
+}
+#ibks
+{
+    width:50%;
+    height: 100px;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px;
+}
+
+#bks
+{
+    margin-top: 20px;
+    font-size: 50px;
+    width:30%;
+    background: #650101;
+    border-radius: 5px;
+    border: 1px solid maroon;
+    transition-duration: .4s;
+}
+#bks:hover
+{
+    background: #761d1d;
+    border: 1px solid #000000;
+    color: #e06f6f;
+    letter-spacing: 1px;
+}
+
+#ibz
+{
+    width:50%;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px;
+}
+
+#bz
+{
+    margin-top: 20px;
+    font-size: 50px;
+    width:30%;
+    background: #271bc1;
+    border-radius: 5px;
+    border: 1px solid #0c086a;
+    transition-duration: .4s;
+}
+#bz:hover
+{
+    background: #544dff;
+    border: 1px solid #000000;
+    color: #000088;
+    letter-spacing: 1px;
+}
+
+.die
+{
+    text-align: center;
+    color:red;
+    font-size:50px;
+    
+}
+
+ali
+{
+    width:50%;
+    height: 100px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px;
+}
+#alil
+{
+    margin-top: 20px;
+    font-size: 50px;
+    width:30%;
+    background: #a3b426;
+    border-radius: 5px;
+    border: 1px solid #2a3900;
+    transition-duration: .4s;
+}
+
+#alil:hover
+{
+    background: #e2ff00;
+    border: 1px solid #000000;
+    color: #6c5f00;
+    letter-spacing: 1px;
+    
+}
+.nwm::first-letter
+{
+    color:gold;
+    font-size: 150px;
+    letter-spacing: 5px;
+}

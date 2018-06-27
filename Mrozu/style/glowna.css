@@ -1,0 +1,193 @@
+body
+{
+	background-image: url("plaster.png");
+	background-color: #eee;
+	font-size: 30px;
+	margin:0!important;
+}
+.pojemnik
+{
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	width:70%;
+	float:left;
+}
+
+#zegar
+{
+	font-size:80px;
+	float:left;
+	width:30%;
+	color: #ff7700;
+	text-shadow:
+	4px 4px 0 #e04719,
+	4px 4px 0 #e04719,
+	4px 4px 0 #e04719,
+	4px 4px 0 #e04719;
+}
+
+#tophead
+{
+	color:#222;
+	border:2px solid #000;
+	width:100%;
+	clear:both;
+	background-color:#222;
+	
+}
+
+
+#nas
+{
+	text-align:center;
+	color:#fff;
+	border:2px solid #000;
+	width:100%;
+	clear:both;
+	background-color: #888;
+	min-width:100%;
+}
+
+.socials
+{
+	clear:both;
+	width: 100%;
+	background-color: #696969;
+}
+
+.socialdivs
+{
+	width:80%;
+	margin-left:auto;
+	
+}
+
+.fb
+{
+	padding-top:20px;
+	width: 20%;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	margin-right:5%;
+}
+
+.tw
+{
+	padding-top:20px;
+	width: 20%;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	margin-right:5%;
+}
+
+.gplus
+{
+	padding-top:20px;
+	width: 20%;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	margin-right:5%;
+}
+
+
+a.tilelink
+{
+	transition-duration:0.5s;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+a.tilelink:hover
+{
+	text-shadow:
+	6px -6px 0 #e04719,
+	-6px 6px 0 #e04719,
+	6px -6px 0 #e04719,
+	-6px 6px 0 #e04719;
+}
+#stopka
+{
+	color:#000;
+	text-align:center;
+	clear:both;
+	width:100%;
+	background-color:#202020;
+	min-height: 40px;
+	max-height:100px;
+}
+#menu
+{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+.option
+{
+	text-align:center;
+	width:15.8%;
+	background-color:#222;
+	margin-right:2%;
+	font-size: 30px;
+	height: 60px;
+	padding:1%;
+	float:left;
+	transition-duration:1s;
+	
+}
+.option:first-child
+{
+	margin-left:1%;
+}
+.option:hover
+{
+	padding-top:100px;
+	background-color: #e65c1c;
+	color: white;
+	cursor:pointer;
+	height:100px;
+	border-bottom-right-radius: 110px ;
+	border-bottom-left-radius: 110px ;
+}
+
+a.menu
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+a.menu:hover
+{
+	color: #000;
+	display:block;
+}
+
+#header
+{
+	clear:both;
+	font-size:100px;
+	color: #ff7700;
+	text-align:center;
+	width:100%;
+	text-shadow:
+	2px -2px 0 #e04719,
+	-2px 2px 0 #e04719,
+	2px -2px 0 #e04719,
+	-2px 2px 0 #e04719;
+}
+
+#content
+{
+	
+}

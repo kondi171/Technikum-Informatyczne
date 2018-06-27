@@ -1,0 +1,289 @@
+body
+{
+	background-color:#393939;
+	font-size: 40px;
+}
+
+#pojemnik
+{
+	width:65%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	margin-left:20px;
+	font-size:100px;
+	float:left;
+	letter-spacing:2px;
+	margin-right:50px;
+	text-shadow:
+	2px 2px 0 green,
+	-2px 2px 0 green,
+	-2px -2px 0 green,
+	2px -2px 0 green;	
+}
+
+#zegar
+{
+	float: left;
+	margin-left:40px;
+	font-size: 100px;
+	text-align: center;
+	color: green;
+	text-shadow:
+	2px 2px 0 #000,
+	-2px 2px 0 #000,
+	-2px -2px 0 #000,
+	2px -2px 0 #000;	
+}
+
+#top
+{
+	clear:both;
+	width:100%;
+	height:40px;
+	text-align:center;
+	background-color: #000;
+	border-radius:90px;
+	-webkit-box-shadow: 0px 36px 132px 2px rgba(20,184,26,0.58);
+	-moz-box-shadow: 0px 36px 132px 2px rgba(20,184,26,0.58);
+	box-shadow: 0px 36px 132px 2px rgba(20,184,26,0.58);
+	margin-bottom:20px;
+}
+
+#left
+{
+	width:30%;
+	float:left;
+}
+
+#pas
+{
+	color: green;
+	padding:1%;
+	text-align:center;
+	width:100%;
+	background-color: #000;
+	border-radius: 30px;
+}
+
+#content
+{
+	float:left;
+	width:65%;
+	text-align:justify;
+	margin-left:2%;
+	text-shadow:
+	0.5px 0.5px 0 green,
+	-0.5px 0.5px 0 green,
+	-0.5px -0.5px 0 green,
+	0.5px -0.5px 0 green;	
+}
+
+#order
+{
+	padding:10px;
+	margin-top:100px;
+	text-align:center;
+	margin-left:50px;
+	background-color:#292929;
+	float:left;
+}
+#rej
+{
+	color:white;
+	text-align:center;
+	width:100%;
+	margin-top: 20px;
+	background-color: #191919;
+	font-size:30px
+}
+
+
+#stopka
+{
+	margin-top:20px;
+	clear:both;
+	text-align: center;
+	border-radius: 30px;
+	margin-bottom:20px;
+	background-color: #000;
+	color: green;
+}
+
+
+a.link
+{
+	text-decoration:none;
+	color: green;
+}
+
+a.link:hover
+{
+	text-decoration:underline;
+	color: #124714;
+}
+
+a.tilelink
+{
+	text-decoration:none;
+	display:block;
+	color: #ffffff;
+}
+
+.yt
+{
+	margin-top: 20px;
+	text-align:center;
+	font-size: 70px;
+	padding:15px;
+	background-color: #191919;
+	transition-duration:0.6s;
+}
+
+.yt:hover
+{
+	background-color: #cf2929;
+	-webkit-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	margin-right:40px;
+}
+
+.tw
+{
+	margin-top: 20px;
+	text-align:center;
+	font-size: 70px;
+	padding:15px;
+	background-color: #191919;
+	transition-duration:0.6s;
+}
+
+.tw:hover
+{
+	background-color: #FFFF33;
+	-webkit-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	margin-right:40px;
+}
+
+.fb
+{
+	margin-top: 20px;
+	text-align:center;
+	font-size: 70px;
+	padding:15px;
+	background-color: #191919;
+	transition-duration:0.6s;
+}
+
+.fb:hover
+{
+	background-color: #6666FF;
+	-webkit-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	margin-right:40px;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height:200%;
+	display:inline-block;
+}
+
+ol a
+{
+	color: green;
+	font-size:20px;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+
+}
+
+ol > li:hover
+{
+	background-color: #0e3d10;
+	padding:2px;
+}
+
+input[type=text],
+input[type=password]
+{
+	
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #abcda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+	margin-top: 10px;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	margin-bottom:12px;
+	background-color: green;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+}
+
+input[type=submit]:hover
+{
+	background-color: #37b93b;
+}
+
+
+
+#opinia
+{
+	text-align:center;
+}
+#witaj
+{
+	margin-top:20%;
+	margin-bottom:20%
+}

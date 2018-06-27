@@ -1,0 +1,289 @@
+body
+{
+	/* background pattern from sublepatterns.com */
+	background-color:#000;
+	background-image: url("padded.png");
+	background-attachment: fixed;
+	font-size: 40px;
+}
+
+#container
+{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+#logo
+{
+	text-align:center;
+	font-size: 70px;
+	width:100%;
+	font-family: 'Orbitron', sans-serif;
+	color: #fff;
+	text-shadow:
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a,
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a;
+}
+#top
+{
+	color: #fff;
+	text-align:center;
+	margin-bottom:3%;
+	width:100%;
+	background-color: #000;
+	height:5%;
+	-webkit-box-shadow: 0px -2px 77px 24px rgba(57,0,122,0.34);
+	-moz-box-shadow: 0px -2px 77px 24px rgba(57,0,122,0.34);
+	box-shadow: 0px -2px 77px 24px rgba(57,0,122,0.34);
+}
+a.powrot
+{
+	color: #39007a;
+}
+a.powrot:hover
+{
+	color: #fff;
+}
+#content
+{
+	color: #fff;
+
+	width:100%;
+	text-align:justify;
+
+	font-family: 'Shadows Into Light', cursive;
+}
+
+
+.optionR
+{
+	font-size: 30px;
+	height: 60px;
+	padding: 15px;
+	transition-duration: 2s
+	
+}
+.optionR:hover
+{
+	margin-left:10%;
+	cursor:pointer;
+}
+
+a.optionR
+{
+	text-shadow:
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a,
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a;
+}
+a.optionR:hover
+{
+	text-shadow: none;
+	color:#fff;
+}
+
+input[type=submit]
+{
+	width: 60%;
+	background-color: #39007a;
+	color: #000;
+	border: 2px solid #000;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #000;
+	background-color: #16006a;
+	color: #111111;
+}
+
+input[type=text],
+input[type=password]
+{
+	text-align:center;
+	width: 90%;
+	background-color: #efefef;
+	color: #39007a;
+	border: 2px solid #ddd;
+	border-radius: 15px;
+	font-size: 20px;
+	padding: 1%;
+	box-sizing: border-box;
+	outline: none;
+	-webkit-box-shadow: 0px -2px 77px 24px rgba(57,0,122,0.57);
+-moz-box-shadow: 0px -2px 77px 24px rgba(57,0,122,0.57);
+box-shadow: 0px -2px 77px 24px rgba(57,0,122,0.57);
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #000;
+	background-color: #623299;
+	color: black;
+}
+button
+{
+	width: 60%;
+	background-color: #39007a;
+	color: #000;
+	border: 2px solid #000;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+}
+
+button:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #000;
+	background-color: #16006a;
+	color: #111111;
+}
+
+a
+{
+	text-decoration:none;
+	color:#000;
+}
+
+#media
+{
+	clear:both;
+	width:100%;
+}
+
+.insta
+{
+	
+	padding-top:10px;
+	width: 20%;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	margin-left:10%;
+	
+}
+
+a.insta
+{
+	text-shadow:
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a,
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a;
+
+}
+a.insta:hover
+{
+	text-shadow: none;
+	color:#854c20;
+}
+.tw
+{
+	padding-top:20px;
+	width: 20%;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+}
+a.twitter
+{
+	text-shadow:
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a,
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a;
+}
+a.twitter:hover
+{
+	text-shadow: none;
+	color: #3095d3;
+
+}
+
+.fb
+{
+	padding-top:20px;
+	width: 20%;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+}
+
+a.facebook
+{
+	text-shadow:
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a,
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a;
+}
+
+a.facebook:hover
+{
+	text-shadow: none;
+	color:#4668b3;
+}
+
+
+.vi
+{
+	padding-top:20px;
+	width: 20%;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	margin-right:10%;
+}
+
+a.vimeo
+{
+	text-shadow:
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a,
+	6px -4px 0 #39007a,
+	-6px 4px 0 #39007a;
+}
+a.vimeo:hover
+{
+	text-shadow: none;
+	color: #ad0045;
+
+}
+
+#stopka
+{
+	clear:both;
+	width:100%;
+	text-align:center;
+	background-color:#000;
+	color: #39007a;
+}

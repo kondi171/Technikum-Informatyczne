@@ -1,0 +1,331 @@
+body
+{
+	width:100%;
+	margin:0!important;
+	font-size: 40px;
+	background-color: #454545;
+	background-image:url(darkness.png);
+	font-family: 'Lobster Two', cursive;
+}
+
+#welcome
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav
+{
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	min-height:90px;
+	text-align:center;
+	margin-bottom:60px;
+	background-color:#BB0000;
+}
+
+.option 
+{
+	font-size:70px;
+	width:25%;
+	float:left;
+}
+
+
+#one
+{
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:30px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	color: maroon;
+	
+}
+
+#two
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:80%;
+}
+
+.classic1
+{
+	font-size:70px;
+	background-image: url("mario.jpg");
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	height:100px;
+	margin-bottom:30px;
+	text-shadow:
+	1px -1px 3px orange,
+	-1px 1px 3px orange,
+	1px -1px 3px orange,
+	-1px 1px 3px orange;
+	border: 2px solid #000;
+	transition-duration:2s;
+}
+.classic1:hover
+{
+	transform: scale(2,1);
+	-webkit-box-shadow: 0px 0px 152px 16px rgba(255,191,0,1);
+	-moz-box-shadow: 0px 0px 152px 16px rgba(255,191,0,1);
+	box-shadow: 0px 0px 152px 16px rgba(255,191,0,1);
+	cursor:pointer;
+}
+.classic2
+{
+	font-size:70px;
+	background-image: url("Contra.jpg");
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	height:100px;
+	margin-bottom:30px;
+	text-shadow:
+	1px -1px 3px blue,
+	-1px 1px 3px blue,
+	1px -1px 3px blue,
+	-1px 1px 3px blue;
+	border: 2px solid #000;
+	transition-duration:2s;
+}
+
+.classic2:hover
+{
+	transform: scale(2,1);
+	-webkit-box-shadow: 0px 0px 152px 16px rgba(3,36,250,1);
+	-moz-box-shadow: 0px 0px 152px 16px rgba(3,36,250,1);
+	box-shadow: 0px 0px 152px 16px rgba(3,36,250,1);
+	cursor:pointer;
+}
+
+.classic3
+{
+	font-size:70px;
+	background-image: url("tank.jpg");
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	height:100px;
+	margin-bottom:30px;
+	text-shadow:
+	1px -1px 3px maroon,
+	-1px 1px 3px maroon,
+	1px -1px 3px maroon,
+	-1px 1px 3px maroon;
+	border: 2px solid #000;
+	transition-duration:2s;
+}
+
+.classic3:hover
+{
+	transform: scale(2,1);
+	-webkit-box-shadow: 0px 0px 152px 16px rgba(255,0,0,1);
+	-moz-box-shadow: 0px 0px 152px 16px rgba(255,0,0,1);
+	box-shadow: 0px 0px 152px 16px rgba(255,0,0,1);
+	cursor:pointer;
+}
+
+.classic4
+{
+	font-size:70px;
+	background-image: url("island.jpg");
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	height:100px;
+	margin-bottom:30px;
+	text-shadow:
+	1px -1px 3px green,
+	-1px 1px 3px green,
+	1px -1px 3px green,
+	-1px 1px 3px green;
+	border: 2px solid #000;
+	transition-duration:2s;
+	margin-bottom:90px;
+}
+
+.classic4:hover
+{
+	transform: scale(2,1);
+	-webkit-box-shadow: 0px 0px 152px 16px rgba(18,112,4,1);
+	-moz-box-shadow: 0px 0px 152px 16px rgba(18,112,4,1);
+	box-shadow: 0px 0px 152px 16px rgba(18,112,4,1);
+	cursor:pointer;
+}
+a
+{
+	text-decoration:none;
+	color:#000;
+}
+
+#three
+{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+}
+
+#footer
+{
+	border-top:2px solid maroon;
+	border-bottom:2px solid maroon;
+	background-color:#000;
+	padding-left:10%;
+	width:90%;
+	height:300px;
+	color: maroon;
+	-webkit-box-shadow: inset 0px 0px 171px -6px rgba(117,1,1,1);
+	-moz-box-shadow: inset 0px 0px 171px -6px rgba(117,1,1,1);
+	box-shadow: inset 0px 0px 171px -6px rgba(117,1,1,1);
+}
+
+#autor
+{
+	width:10%;
+	float:left;
+}
+
+#contact
+{
+	font-size:30px;
+	width:30%;
+	float:left;
+}
+
+
+
+.socialdivs
+{
+	width:40%;
+	float:left;
+}
+
+.fb
+{
+	padding-top:20px;
+	width: 150px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	transition-duration: 0.02s;
+	margin-right:50px;
+	text-shadow:
+	3px -3px 0 maroon,
+	-3px 3px 0 maroon,
+	3px -3px 0 maroon,
+	-3px 3px 0 maroon;
+}
+
+.fb:hover
+{
+	text-shadow:
+	9px -9px 0 darkblue,
+	-9px 9px 0 darkblue,
+	9px -9px 0 darkblue,
+	-9px 9px 0 darkblue;
+	color: white;
+}
+
+.snap
+{
+	padding-top:20px;
+	width: 150px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	transition-duration: 0.02s;
+	margin-right:50px;
+	text-shadow:
+	3px -3px 0 maroon,
+	-3px 3px 0 maroon,
+	3px -3px 0 maroon,
+	-3px 3px 0 maroon;
+}
+
+.snap:hover
+{
+
+	text-shadow:
+	9px -9px 0 yellow,
+	-9px 9px 0 yellow,
+	9px -9px 0 yellow,
+	-9px 9px 0 yellow;
+}
+
+.insta
+{
+	padding-top:20px;
+	width: 150px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	transition-duration: 0.02s;
+	text-shadow:
+	3px -3px 0 maroon,
+	-3px 3px 0 maroon,
+	3px -3px 0 maroon,
+	-3px 3px 0 maroon;
+}
+
+.insta:hover
+{
+	text-shadow:
+	9px -9px 0 #592803,
+	-9px 9px 0 #592803,
+	9px -9px 0 #592803,
+	-9px 9px 0 #592803;
+}
+
+a.tilelink
+{
+	transition-duration:0.5s;
+}
+
+a.tilelink:hover
+{
+	color:snow;
+}
+
+#stop
+{
+	clear:both;
+	text-align:center;
+	color: white;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+a.navi
+{
+	display:block;
+}
+a.navi:hover
+{
+	text-decoration:none;
+	color:snow;
+}
+
+a.navi:focus
+{
+	color:snow;
+
+}
+
+
+

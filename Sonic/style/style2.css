@@ -1,0 +1,290 @@
+body
+{
+	background-image: url("dark.png");
+	font-size:30px;
+}
+#container
+{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logo
+{
+	margin-left:10%;
+	font-size:100px;
+	width:100%;
+	letter-spacing:3px;
+	text-shadow:
+	2px 2px 0 darkblue,
+	-2px 2px 0 darkblue,
+	-2px -2px 0 darkblue,
+	2px -2px 0 darkblue;
+
+}
+
+#zegar
+{
+	width:50%;
+	float:right;
+	font-size: 90px;
+	text-align: center;
+	color: #000;
+	text-shadow:
+	2px 2px 0 darkblue,
+	-2px 2px 0 darkblue,
+	-2px -2px 0 darkblue,
+	2px -2px 0 darkblue;
+}
+
+#headstoper
+{
+	text-align:center;
+	clear:both;
+	background-color: #121250;
+	min-height:50px;
+	-webkit-box-shadow: 0px 0px 71px 30px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 71px 30px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 71px 30px rgba(0,0,0,0.75);
+	border-radius: 30px;
+}
+
+#log
+{
+	float:left;
+	width: 40%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	transition-duration:1s;
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #000;
+	background-color: darkblue;
+	color: #428c42;
+	margin-top: 10px;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: #121260;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 5px 10px 10px 2px rgba(0,0,0,0.64);
+}
+
+input[type=submit]:hover
+{
+	background-color: #151540;
+}
+
+#content
+{
+	width:100%;
+	color: #999;
+	text-align:justify;
+}
+#footer
+{
+	color: #000;
+	width:100%;
+	text-align:center;
+	background-color: #121250;
+	border-radius:30px;
+}
+a.rej
+{
+	color: #efefef;
+	display: block;
+	font-size: 40px;
+	text-align:center;
+	tex-decoration: none;
+}
+
+a.rej:hover
+{
+	color:darkblue;
+}
+
+.menu
+{
+	border-bottom: 4px solid maroon;
+	height:50px;
+	margin-right: 1%;
+	float:left;
+	width:18.77%;
+	text-align:center;
+	background-color: #808080;
+	transition-duration:1s;
+}
+.menu:first-child
+{
+	margin-left:1%;
+}
+
+.menu:hover
+{
+	border-bottom: 4px solid #ec5d5d;
+	background-color:#666;
+	height:7vh;
+}
+
+.socials
+{
+	clear:both;
+	width: 100%;
+	text-align: center;
+	transition-duration: 0.4s;
+	margin-bottom:30px;
+}
+
+.socialdivs
+{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+		transition-duration: 2s;
+	margin-right:50px;
+	background-color: #4668b3;
+}
+
+.fb:hover
+{
+	background-color: #799AE5;
+	height:170px;
+	border-bottom:30px;
+	border-bottom-right-radius: 80px ;
+	border-bottom-left-radius: 80px ;
+}
+
+.yt
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+		transition-duration: 2s;
+	margin-right:50px;
+	background-color: #d94348;
+}
+
+.yt:hover
+{
+	background-color: #FC768B;
+	height:170px;
+	border-bottom-right-radius: 80px ;
+	border-bottom-left-radius: 80px ;
+}
+
+.tw
+{
+	padding-top:20px;
+	width: 250px;
+	height: 155px;
+	float: left;
+	text-align: center;
+	font-size:100px;
+	background-color: #3095d3;
+	transition-duration: 2s;
+	margin-right:50px;
+}
+
+.tw:hover
+{
+height:170px;
+	border-bottom:30px;	
+	background-color: #63C8E6;
+border-bottom-right-radius: 80px ;
+	border-bottom-left-radius: 80px ;
+}
+
+a.tilelink
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height:200%;
+	display:inline-block;
+}
+
+ol a
+{
+	color: #9090FF;
+	font-size:20px;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	margin-top:5px;
+	float: left;
+	width: 150px;
+	border-right: 1px dotted #000000;
+}
+
+ol > li:hover
+{
+	height:45px;
+	background-color: #AAAAFF;
+	transition-duration:1.5s;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dotted #000000;
+}
+
+

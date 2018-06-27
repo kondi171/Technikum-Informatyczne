@@ -1,0 +1,209 @@
+body
+{
+	
+	background-image: url("carbon.png");
+	font-size:30px;
+	color: #aaa;
+}
+
+#container
+{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	font-size:100px;
+	text-align:center;
+	text-shadow:
+	2px -2px 0 #4b939c,
+	2px -2px 0 #4b939c,
+	2px -2px 0 #4b939c,
+	2px -2px 0 #4b939c;
+	margin-bottom:2%;
+}
+#Menu
+{
+	width:80%;
+	background-color: #292929;
+	margin-top:2%;
+	float:left;
+	-webkit-box-shadow: 0px 36px 96px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 36px 96px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 36px 96px -2px rgba(0,0,0,0.75);
+}
+
+
+.menu
+{
+	float: left;
+	width: 17.5%;
+	height: 20%;
+	font-size: 18px;
+	padding: 10px;
+	border: 2px dotted #444444;
+	opacity: 0.8;
+	text-align:center;
+	transition-duration:0.4s;
+}
+
+.menu:hover
+{
+	background-color:#202020 ;
+	cursor: pointer;
+	border: 2px dotted #4b939c ;
+	letter-spacing:4px;
+}
+
+
+
+#social
+{
+
+	width: 17.5%;
+	height: 20%;
+	font-size: 18px;
+	padding: 10px;
+	float:left;
+}
+#text
+{
+	letter-spacing: 1px;
+	width:68%;
+	padding:1%;
+	text-align:justify;
+	float:left;
+}
+
+#panel
+{
+	margin-top:40px;
+	float:left;
+	width:28%;
+	padding:1%;
+	text-align:center;
+	background-color:#222222;
+	-webkit-box-shadow: 24px 24px 26px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: 24px 24px 26px -12px rgba(0,0,0,0.75);
+	box-shadow: 24px 24px 26px -12px rgba(0,0,0,0.75);
+}
+input[type=submit]
+{
+	width: 45%;
+	background-color: #4b939c ;
+	color: #666;
+	border: 2px solid #6db5be;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	background-color: #3a817a ;
+	color: #111111;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 70%;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	transition-duration:0.4s;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	width:80%;
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #4b939c ;
+	background-color: #6db5be ;
+	color: #111111;
+}
+#stopka
+{
+	width:100%;
+	text-align:center;
+	clear: both;
+	background-color:#393939;
+}
+
+.fb
+{
+	width:16%;
+	float:left;
+	font-size:50px;
+	margin-right:40px;
+}
+
+.insta
+{
+	width:16%;
+	float:left;
+	font-size:50px;
+	margin-right:40px;
+}
+.snap
+{
+	width:16%;
+	float:left;
+	font-size:54px;
+}
+
+a.link
+{
+	text-decoration:none;
+	color: #aaa;
+	transition-duration:1s;
+}
+a.link:hover
+{
+	color: #4b939c ;
+}
+
+button
+{
+	width: 45%;
+	background-color: #4b939c ;
+	color: #666;
+	border: 2px solid #6db5be;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+}
+
+button:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	background-color: #3a817a ;
+	color: #111111;
+}
+
+a.rej
+{
+	color: #666;
+	text-decoration:none;
+}

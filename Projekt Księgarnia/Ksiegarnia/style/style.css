@@ -1,0 +1,98 @@
+body
+{
+    font-size:50px;
+    margin:0!important;
+    background-image:url("black.png");
+    background-color: #404040;
+}
+
+.box
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    text-align: center;
+}
+
+h1
+{
+    font-family: monospace;
+    letter-spacing: 3px;
+    color:gold;
+}
+
+.klienci,.ksiazki,.zamowienia{
+     height: 500px;
+     display: inline-block;
+    width:30%;
+     border: 1px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    color:#9f9f9f;
+}
+
+.klienci
+{
+    background: #426d2a;
+}
+
+.ksiazki
+{
+    background: #741616;
+    
+}
+
+.zamowienia
+{
+    background: #081174;
+}
+
+footer
+{
+    border-top: 1px solid gold;
+    width:100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color: #9f9f9f;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tilelink
+{
+    font-size: 130px;
+}
+
+a.tilelink
+{
+    text-decoration: none;
+    color:#fff;
+    transition-duration: .4s;
+}
+
+a.tilelink:hover
+{
+    filter: brightness(70%) blur(1px);
+    transform: scale(1.2);
+}
+
+.all
+{
+    margin-top:30px;
+    width:90%;
+    background-color: gold;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
