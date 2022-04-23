@@ -1,0 +1,139 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background: #dddddd; }
+
+.box {
+  width: 100%;
+  position: relative; }
+
+.semantic-header {
+  display: none; }
+
+.main-header {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+  border-bottom: 0.2vh solid #81b48b; }
+
+.navigation-list {
+  display: flex;
+  list-style: none; }
+  .navigation-list .nav-item {
+    font-size: 2.5vw;
+    padding: 1vw;
+    margin: 1vw;
+    transition: all .3s linear; }
+    .navigation-list .nav-item a {
+      text-decoration: none;
+      color: #19882f; }
+    .navigation-list .nav-item:hover {
+      transform: scale(1.1) rotate(5deg);
+      letter-spacing: 1px; }
+
+.main-logo {
+    font-size:2em;
+    color: #19882f;
+  font-family: 'Dancing Script', cursive;}
+
+.main-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url(../img/forest.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  filter: brightness(70%);
+  -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75); }
+  .main-image .logo, .main-image span {
+    font-size: 3.2rem;
+    color: #2ed950;
+    text-shadow: 1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-family: 'Dancing Script', cursive;
+    filter: brightness(100%);
+    width: inherit;
+    text-align: center; }
+  .main-image span {
+    margin: 0 auto;
+    padding: 1.5vw;
+    font-size: 26px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #61a16e; }
+
+.image-header {
+  text-align: center;
+  margin-top: 5vw;
+  color: #19882f;
+  letter-spacing: .2vw;
+  }
+
+.little-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .little-images .single-image img {
+    width: 240px;
+    height: 180px;
+    margin: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 50%; }
+  .little-images h2, .little-images p {
+    text-align: center;
+    max-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid black; }
+  .little-images p {
+    align-self: baseline;
+    border-bottom: none;
+    min-height: 6vh; }
+
+.description {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  .description .description-header {
+    text-align: center;
+    color: #19882f;
+    letter-spacing: .2vw; }
+
+.footer {
+  margin-top: 2vw;
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'Dancing Script', cursive;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1vw;
+  border-top: 0.2vh solid #81b48b;
+  -webkit-box-shadow: inset 0px 10px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 10px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 10px 15px 0px rgba(0, 0, 0, 0.75); }
+
+@media only screen and (max-width: 460px) {
+  .navigation-list {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

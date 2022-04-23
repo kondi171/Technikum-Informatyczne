@@ -1,0 +1,124 @@
+body
+{
+	background-image: url("fl.png");
+	font-size:25px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#zegar
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	text-align: left;
+	color: #141414;
+}
+
+#logo
+{
+	width: 1000px;
+	text-align: center;
+	font-size: 80px;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+
+#Menu
+{
+	background-image: url("anim.jpg");
+	float: left;
+	width:260px;
+	min-height: 920px;
+	border-top-left-radius: 80px ;
+	border-top-right-radius: 80px ;
+	border-bottom-right-radius: 80px ;
+	border-bottom-left-radius: 80px ;
+	-webkit-box-shadow: -63px 11px 103px 3px rgba(0,0,0,0.78);
+	-moz-box-shadow: -63px 11px 103px 3px rgba(0,0,0,0.78);
+	box-shadow: -63px 11px 103px 3px rgba(0,0,0,0.78);
+}
+
+#content
+{
+	width:700px;
+	float:left;
+	text-align: justify;
+	padding: 10px;
+	
+}
+
+
+.fb
+{
+	float:left;
+	width: 175px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.fb:hover
+{
+	background-color: blue;
+}
+
+.Insta
+{
+	float:left;
+	width: 175px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.Insta:hover
+{
+	background-color: brown;
+}
+
+.Snap
+{
+	float:left;
+	width: 175px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.Snap:hover
+{
+	background-color: Yellow;
+}
+
+.GG
+{
+	float:left;
+	width: 175px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.GG:hover
+{
+	background-color: darkorange;
+}
+
+#stopka
+{
+	width: 1000px;
+	background-color: #000000;
+	clear:both;
+	color: #fff;
+	text-align: center;
+	border-top-left-radius: 80px ;
+	border-top-right-radius: 80px ;
+	border-bottom-right-radius: 80px ;
+	border-bottom-left-radius: 80px ;
+

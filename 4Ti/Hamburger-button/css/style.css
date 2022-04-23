@@ -1,0 +1,14 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    transition-duration: 1s;
+}
+
+.example-text{
+    padding: 2em;
+    font-size: 150%;
+}
+
+footer{ text-align: center; }
+.line{border: .5px solid rgba(0, 0, 0, 0.7);}

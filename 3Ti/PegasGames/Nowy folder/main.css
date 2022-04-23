@@ -1,0 +1,68 @@
+body
+{
+	background-color:#222;
+	font-size:30px;
+	
+}
+
+#container
+{
+	margin:auto;
+	width:80%;
+}
+
+#logo
+{
+	width:100%;
+	font-size:100px;
+	text-align:center;
+	letter-spacing:3px;
+	text-shadow:
+	2px -2px 0 maroon,
+	-2px 2px 0 maroon,
+	2px -2px 0 maroon,
+	-2px 2px 0 maroon;
+}
+
+.nav
+{
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	min-height:60px;
+	text-align:center;
+	margin-bottom:60px;
+	background-color:maroon;
+}
+
+.option
+{
+	font-size:30px;
+	width:25%;
+	float:left;
+	border-right: 1px dashed #000;
+}
+
+
+
+
+a
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+a:hover
+{
+	color:#000;
+	text-shadow:
+	2px -2px 0 maroon,
+	-2px 2px 0 maroon,
+	2px -2px 0 maroon,
+	-2px 2px 0 maroon;
+	
+}
+
+#content
+{
+	text-align:justify;
+}

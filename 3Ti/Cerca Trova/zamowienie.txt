@@ -1,0 +1,12 @@
+17-03-14 09:58 	Zamówiłeś Procesorów i7 4 za 1000 razem  4000 	Procesorów i5  4 za 700 razem 4000 	łaczna kwota do zaplaty 6800 
+17-03-14 10:01 	Zamówiłeś Procesorów i7 5 za 1000 razem  5000 	Procesorów i5  5 za 700 razem 5000 	łaczna kwota do zaplaty 8500 
+17-03-14 10:04 	Zamówiłeś Procesorów i7 1 za 1000 razem  1000 	Procesorów i5  1 za 700 razem 1000 	łaczna kwota do zaplaty 1700 
+17-03-14 10:06 	Zamówiłeś Procesorów i7 1 za 1000 razem  1000 	Procesorów i5  1 za 700 razem 1000 	łaczna kwota do zaplaty 1700 
+17-03-14 10:12 	Zamówiłeś Procesorów i7 5 za 1000 razem  5000 	Procesorów i5  5 za 700 razem 5000 	łaczna kwota do zaplaty 8500 
+17-03-14 10:13 	Zamówiłeś Procesorów i7 5 za 1000 razem  5000 	Procesorów i5  5 za 700 razem 5000 	łaczna kwota do zaplaty 8500 
+17-03-14 10:19 	Zamówiłeś Procesorów i7 5 za 1000 razem  5000 	Procesorów i5  5 za 700 razem 5000 	łaczna kwota do zaplaty 8500 
+17-03-14 10:22 	Zamówiłeś Procesorów i7 3 za 1000 razem  3000 	Procesorów i5  3 za 700 razem 3000 	łaczna kwota do zaplaty 4400 
+17-03-14 10:37 	Zamówiłeś Procesorów i7 3 za 1000 razem  3000 	Procesorów i5  3 za 700 razem 3000 	łaczna kwota do zaplaty 4400 
+17-03-14 10:38 	Zamówiłeś Procesorów i7 3 za 1000 razem  3000 	Procesorów i5  3 za 700 razem 3000 	łaczna kwota do zaplaty 4400 
+17-03-14 10:45 	Zamówiłeś Procesorów i7 2 za 1000 razem  2000 	Procesorów i5  2 za 700 razem 2000 	łaczna kwota do zaplaty 4100 
+17-03-14 10:58 	Zamówiłeś Procesorów i7 5 za 1000 razem  5000 	Procesorów i5  5 za 700 razem 5000 	łaczna kwota do zaplaty 7100 

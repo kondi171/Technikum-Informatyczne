@@ -1,0 +1,136 @@
+body
+{
+	/* background pattern from sublepatterns.com */
+	background-image: url("black_paper.png");
+	background-color: #303130;
+	color: #fff;
+	font-size:40px;
+	margin:0!important;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}
+#container2
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:50px;
+	text-align:center;
+	color: #CCC000;
+}
+#footer
+{
+	clear:both;
+	width:100%;
+	height:240px;
+	font-size: 20px;
+	pading:10px;
+	background-color: #090909;
+	bottom:0px;
+}
+
+#media
+{
+	width: 800px;
+	float:right;
+	margin-right:50px;
+	margin-top:20px;
+}
+
+.insta
+{
+	float:right;
+	font-size: 150px;
+	margin-top: 10px;
+	padding:5px;
+	margin-left: 20px;
+	margin-bottom:10px;
+	background-color: #090909;
+	tex-decoration: none;
+	transition-duration:2s;
+}
+
+.insta:hover
+{
+	background-color: #CC9966 ;
+	margin-top:20px;
+	border-radius: 30px;
+}
+
+.snap
+{
+	float:right;
+	font-size: 150px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	padding:5px;
+	margin-left: 20px;
+	background-color: #090909;
+	tex-decoration: none;
+	transition-duration:2s;
+}
+
+.snap:hover
+{
+	background-color: #FFFF33;
+	margin-top:20px;
+	border-radius: 30px;
+}
+
+.fb
+{
+	float:right;
+	font-size: 150px;
+	margin-top: 10px;
+	padding:5px;
+	margin-left: 20px;
+	margin-bottom:20px;
+	background-color: #090909;
+	tex-decoration: none;
+	transition-duration:2s;
+}
+
+.fb:hover
+{
+	margin-top:20px;
+	background-color: #2b62ed;
+	border-radius: 30px;
+}
+
+#content
+{
+	margin-top:20px;
+	width: 900px;
+	text-align:justify;
+	font-family: 'Archivo Black', sans-serif;
+	padding:20px;
+	float:left;
+	color:#292929;
+	font-size:30px;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+a
+{
+	color: #ffffff;
+}
+#footer2
+{
+	clear:both;
+	width:100%;
+	height:240px;
+	font-size: 20px;
+	pading:10px;
+	background-color: #090909;
+}

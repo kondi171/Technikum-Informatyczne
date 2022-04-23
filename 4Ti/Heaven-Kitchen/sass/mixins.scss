@@ -1,0 +1,48 @@
+﻿// Vars
+$containerWidth: 980px;
+$mainColor: #4F9012;
+
+// Mixins
+@mixin container {
+	width: $containerWidth;
+	margin: 0 auto;
+}
+
+@mixin borderRadius($size) {
+	-webkit-border-radius: $size;
+	-moz-border-radius: $size;
+	-o-border-radius: $size;
+	border-radius: $size;
+}
+
+@mixin noSelection {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+@mixin boxShadow($size, $color) {
+	-moz-box-shadow: 2px 2px $size $color;
+	-webkit-box-shadow: 2px 2px $size $color;
+	box-shadow: 2px 2px $size $color;
+}
+
+@mixin activeButton {
+	background: $mainColor;
+	border: 0;
+	line-height: 22px;
+	height: 22px;
+	padding: 0 8px;
+	color: #fff;
+	font-size: 10px;
+	@include borderRadius(5px);
+}
+
+@mixin inactiveButton {
+	@include linkButton;
+	@include noSelection;
+	cursor: default;
+	color: #000;
+	background: #666;
+}

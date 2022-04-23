@@ -1,0 +1,189 @@
+body
+{
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'lato', sans-serif;
+	font-size: 20px;
+}
+
+#cointainer
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+}
+
+.square
+{
+	width: 50%;
+	float: left;
+}
+
+#logo
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	width: 600px;
+	margin: 10px;
+	margin-bottom: 10px;
+}
+
+#zegar
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	margin: 10px;
+	margin-bottom: 10px;
+}
+
+.tile1
+{
+	float: left;
+	width: 230px;
+	margin: 10px;
+	height: 142px;
+	background-color: #3095d3;
+	text-align: center;
+}
+
+.tile1:hover
+{
+	background-color: #2084c2;
+}
+
+.tile2
+{
+	float: left;
+	width: 230px;
+	margin: 10px;
+	height: 142px;
+	background-color: #666666;
+	text-align: center;
+}
+
+.tile2:hover
+{
+	background-color: #555555;
+}
+
+.tile3
+{
+	float: left;
+	width: 230px;
+	margin: 10px;
+	height: 142px;
+	background-color: #93c748;
+	text-align: center;
+}
+
+.tile3:hover
+{
+	background-color: #82b637;
+}
+
+.tile4
+{
+	width: 420px;
+	margin:10px;
+	height: 78px;
+	background-color: #ee5a32;
+	text-align: center;
+	padding: 30px;
+	font-size: 22px;
+}
+
+.tile5
+{
+	width: 460px;
+	margin: 10px;
+	height: 284px;
+	background-color: grey;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+
+.tile6
+{
+	width: 105px;
+	height: 142px;
+	margin: 10px;
+	background-color: #8B0000;
+	float: left;
+}
+
+.tile6:hover
+{
+	background-color: maroon;
+}
+
+.tile7
+{
+	width: 105px;
+	height: 142px;
+	margin: 10px;
+	background-color: darkblue;
+	float: left;
+}
+
+.tile7:hover
+{
+	background-color: midnightblue;
+}
+
+.tile8
+{
+	width: 105px;
+	height: 142px;
+	margin: 10px;
+	background-color: cyan;
+	float: left;
+}
+
+.tile8:hover
+{
+	background-color: darkcyan;
+}
+
+.tile9
+{
+	width: 105px;
+	height: 142px;
+	margin: 10px;
+	background-color: #d95333;
+	float: left;
+}
+.tile9:hover
+{
+	background-color: #c84222;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

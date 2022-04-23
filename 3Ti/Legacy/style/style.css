@@ -1,0 +1,130 @@
+body
+{
+	background-image: url("mg.png");
+	font-size:30px
+}
+#container
+{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#logo
+{
+	float:left;
+	font-size:100px;
+	width:70%;
+	letter-spacing:3px;
+	text-shadow:
+	2px 2px 0 #db4c4c,
+	-2px 2px 0 #db4c4c,
+	-2px -2px 0 #db4c4c,
+	2px -2px 0 #db4c4c;
+
+}
+
+#zegar
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 90px;
+	text-align: center;
+	color: maroon;
+	margin-top: 40px;
+	text-shadow:
+	2px 2px 0 #db4c4c,
+	-2px 2px 0 #db4c4c,
+	-2px -2px 0 #db4c4c,
+	2px -2px 0 #db4c4c;
+}
+
+#headstoper
+{
+	clear:both;
+	background-color: #505050;
+	min-height:50px;
+}
+
+#log
+{
+	width: 40%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input[type=submit]
+{
+	width: 50%;
+	background-color: #db4c4c;
+	color: #666;
+	border: 2px solid maroon;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #CCCC00;
+	background-color: #FFFF33;
+	color: #111111;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 70%;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 5px 23px 32px -9px rgba(219,76,76,1);
+	-moz-box-shadow: 5px 23px 32px -9px rgba(219,76,76,1);
+	box-shadow: 5px 23px 32px -9px rgba(219,76,76,1);
+	border: 2px solid #505050;
+	background-color: #898989;
+	color: #111111;
+}
+
+
+#content
+{
+	width:100%;
+	color: #303030;
+	text-align:justify;
+}
+
+#footer
+{
+	width:100%;
+	text-align:center;
+	background-color:#505050;
+}
+a.rej
+{
+	color: #efefef;
+	display: block;
+	font-size: 40px;
+	text-align:center;
+	tex-decoration: none;
+}
+
+a.rej:hover
+{
+	color:maroon;
+}

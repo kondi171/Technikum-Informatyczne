@@ -1,0 +1,142 @@
+/*Design and position*/
+.hamburger-container{
+    display:flex;
+    position: relative;
+    justify-content: flex-start;   
+    width: 100%;
+}
+
+.hamburger-button{
+    right:0;
+    margin-right: 1em;
+    transition-duration:.5s;
+    justify-content: flex-end;
+    cursor: pointer;
+    align-self: center;
+    line-height: normal;   
+}
+
+.main-logo{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 3vw;
+}
+
+.hamburger-ingredient{
+    background-color: #989797;
+    border-radius: 1em;
+    height: .4em;
+    width: 2.5em;
+    margin: .2em;
+    transition: all .5s ease-in-out;
+}
+
+.hamburger-button:hover .hamburger-ingredient{
+    background-color: #999; 
+}
+
+/*Classes for JavaScript to animation*/
+.p-fixed{ position: fixed; }
+.transparent-overlay{ 
+    filter: brightness(50%);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/*Transforms*/
+.to-bottom{transform: translateY(0.7em);}
+.top-transform{ transform: rotate(45deg); }
+.mid-transform{ transform: translateY(-.6em) rotate(-45deg); }
+.bottom-transform{ transform: translateY(-1.2em) rotate(-45deg); }
+
+/*Hamburger list*/
+.hamburger-menu{ 
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top:10%;
+    left:0;
+    right:0;
+    margin: auto;
+}
+
+.hamburger-list{
+    list-style: none;
+    font-size:1em;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.hamburger-list > .hamburger-item-list{
+    margin-top: 1vw;
+    padding: 3vw;
+    width: auto;
+}
+
+.hamburger-list > .hamburger-item-list > a{
+    text-decoration: none;
+    color: #19882f;
+    display: block;
+    transition-duration:.5s;
+    font-size: 2em;
+    border-bottom: 2px solid #19882f;
+    font-weight: 700;
+}
+
+.hamburger-list > .hamburger-item-list > a:hover{
+    color: #aaa;
+    cursor: pointer;  
+}
+
+.no-display{
+    display: none;
+    transition-duration: 1s;
+}
+
+/*Media Queries*/
+@media screen and (min-width:760px){
+    
+    .hamburger-menu{ position: static; }
+    
+    .hamburger-button{ 
+        display: none; 
+    }
+    
+    .hamburger-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .hamburger-item-list{
+        width:25%;
+        font-size:2em;
+    }
+    
+    .no-display{ display: block; }  
+    
+    .hamburger-list > .hamburger-item-list > a{
+        margin: auto;
+        color: #000;
+        font-size: .7em;
+        color:#19882f;
+        border: none;
+    }
+}
+
+/*Uncomment this section to reverse the header*/
+.hamburger-button{
+ order:1;
+ left:0;
+ margin-left: 1em;
+    
+}
+.main-logo{
+    order: 2;
+    margin-right: 1vw;
+    margin-left:auto;
+}
+.filtrowanie{
+    filter: contrast(30);
+}

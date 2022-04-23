@@ -1,0 +1,279 @@
+body
+{
+	/* background pattern from sublepatterns.com */
+	background-image: url("black_paper.png");
+	background-color: #303130;
+	color: #fff;
+	font-size:30px;
+	margin:0!important;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	text-shadow:
+	2px -1px 0 gold,
+	-2px 1px 0 gold,
+	2px -1px 0 gold,
+	-2px 1px 0 gold;
+	float:left;
+	width: 500px;
+	font-size: 90px;
+}
+
+#Media
+{
+	float:left;
+	width: 500px;
+}
+
+.insta
+{
+	float:right;
+	font-size: 70px;
+	margin-top: 10px;
+	padding:5px;
+	margin-left: 10px;
+	margin-bottom:10px;
+	background-color: #663300;
+	border-radius: 100px ;
+}
+
+.insta:hover
+{
+	background-color: #CC9966 ;
+	-webkit-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+}
+
+.snap
+{
+	float:right;
+	font-size: 70px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	padding:5px;
+	margin-left: 10px;
+	background-color:  #CCCC00;
+	border-radius: 100px ;
+}
+
+.snap:hover
+{
+	background-color: #FFFF33;
+	-webkit-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+}
+
+.fb
+{
+	float:right;
+	font-size: 70px;
+	margin-top: 10px;
+	padding:5px;
+	margin-left: 10px;
+	margin-bottom:20px;
+	background-color: #6699FF;
+	border-radius: 100px ;
+}
+
+.fb:hover
+{
+	background-color: #6666FF;
+	-webkit-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	-moz-box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+	box-shadow: 0px -30px 142px 37px rgba(0,0,0,0.58);
+}
+
+#headstoper
+{
+	width: 1000px;
+	text-align:center;
+	margin-bottom: 10px;
+	border-radius: 10px ;
+	background-color: #191919;
+	clear:both;
+	-webkit-box-shadow: 0px 0px 77px 20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 77px 20px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 77px 20px rgba(0,0,0,0.75);
+}
+
+#phpline
+{
+	width: 1000px;
+	background-color:#232323;
+	margin-bottom: 10px;
+	
+}
+
+#optionL
+{
+	width: 360px;
+	float:left;
+	padding:20px;
+	margin-bottom: 10px;
+}
+
+#zegar
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 90px;
+	text-align: center;
+	color: gold;
+	margin-top: 40px;
+	text-shadow:
+	2px 2px 0 #1a170f,
+	-2px 2px 0 #1a170f,
+	-2px -2px 0 #1a170f,
+	2px -2px 0 #1a170f;	
+}
+
+#optionR
+{
+	float:left;
+	text-align:center;
+	padding: 20px;
+	width: 560px;
+	min-height:150px;
+	background-color: #191919;
+	border-radius: 50px ;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 2px 88px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 88px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 88px -4px rgba(0,0,0,0.75);
+}
+
+input[type=submit]
+{
+	width: 50%;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	cursor: pointer;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #CCCC00;
+	background-color: #FFFF33;
+	color: #111111;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 70%;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	-moz-box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.64);
+	border: 2px solid #CCCC00;
+	background-color: #FFFF33;
+	color: #111111;
+}
+
+#content
+{
+	width: 1000px;
+	clear:both;
+}
+
+#stopka
+{
+	width: 1000px;
+	background-color: #000;
+	color: gold;
+	border-radius: 50px ;
+	text-align:center;
+	font-size: 20px;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	
+	text-decoration: none;
+	display: block;
+}
+a.rej
+{
+	color: #fff;
+	text-decoration:none;
+}
+
+#pause
+{
+	width:100%;
+	background-color:#212121;
+	margin-top:150px;
+	margin-bottom:0;
+	position:fixed;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height:200%;
+	display:inline-block;
+}
+
+ol a
+{
+	color: #CCC000;
+	font-size:20px;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	margin-top:5px;
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dotted #CCC000;
+}
+
+ol > li:hover
+{
+	background-color: #AAA000;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dotted #CCC000;
+}
+

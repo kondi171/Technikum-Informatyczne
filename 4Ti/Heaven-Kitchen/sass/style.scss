@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lobster');
+@import 'reset.css';
+@import 'mixins';
+
+$primaryColor: #db5400;
+$backColor: #868686;
+$cursiveFont: 'Lobster', cursive;
+$boldFont: 'Anton', sans-serif;
+$PC: 'only screen and (min-width:768px)';
+$aroundPadding: 10vw;
+$fontSizePC: 2vw;
+
+*,:after,:before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size:32px;
+    background-color: #3c3c3c;
+    background-image: url(../img/spiration%20dark.png);/* background pattern from sublepatterns.com */
+}
+.main-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position:absolute;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid $primaryColor;
+}
+
+.navbar{
+     width: 100%;
+    ol{  
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        width: (100% / 4);
+        padding: 2%;
+        margin: 2%;
+        font-size: 2.3vh;
+        color:$primaryColor;
+        font-family: $cursiveFont;
+        font-weight: bold;
+     
+        &:hover{
+            @extend .active-li;
+        }
+    }
+}
+.active-li{
+    background: rgba(137, 137, 137, 0.6);
+    @include borderRadius(100px);
+}
+
+.searchbar{
+    display: none;
+}
+
+.main-image{
+    background-image: url(../img/todd-quackenbush-700-unsplash.jpg);
+    min-height: 60vh;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid $primaryColor;
+    margin-bottom: 30px;
+}
+
+.logo{
+    margin-top: 10vw;
+    font-family: $boldFont;
+    text-align: center;
+    font-size: 10vw;
+    color: $primaryColor;
+    text-decoration:underline;
+    text-shadow: 3px -3px 0 #000,
+        -3px 3px 0 #000,
+        3px -3px 0 #000,
+        -3px 3px 0 #000;
+    animation: mainLogo infinite 3s ease-in-out;
+}
+@keyframes mainLogo{
+    0%,100%{
+        transform: translateY(0%);
+    }
+    50%{
+       transform: translateY(5%);
+    }
+}
+
+button{
+    width:auto;
+    margin-top: 10vh;
+    padding: 2vh;
+    font-size: 32px;
+    font-family: $cursiveFont;
+    @include borderRadius(5px);
+    background: rgba(0, 0, 0, 0.6);
+    border: 5px solid $primaryColor;
+    color: $primaryColor;
+    box-shadow: 10px 10px 0 0 black;
+    transition: .3s ease-in;
+    &:hover{
+        color: lighten($primaryColor, 20);
+        border: 5px solid lighten($primaryColor, 20);
+        box-shadow: 10px 10px 10px 0 black;
+    }
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    font-size: 10vw;
+    color:yellow;
+    +h1{
+        color: $primaryColor;
+        padding-left: 5vw;
+        font-family: $cursiveFont;
+        +div{
+            color:$backColor;
+            text-align: justify;
+            padding: 0 7vw;
+            text-align-last: center;
+        }
+    }
+}
+
+.introduce{
+    font-size: 5vw;
+    padding: $aroundPadding;
+    display: block;
+}
+
+.aside{
+    display: none;
+}
+
+.images-gallery{
+    color:$backColor;
+    padding: $aroundPadding 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    .card{
+        position: relative;
+    }
+    img{
+        display: block;
+        width: 100%;
+        height: 50vh;
+        filter: brightness(70%);
+    }
+    h2{
+        position: absolute;
+        top: 0;
+        left:0;
+        bottom:0;
+        right:0;
+        margin: auto;
+        padding: $aroundPadding;
+        color:$primaryColor;
+        font-family: $boldFont;
+        text-align: center;
+        text-shadow: 3px -3px 0 #000,
+            -3px 3px 0 #000,
+            3px -3px 0 #000,
+            -3px 3px 0 #000;
+    }
+    span{
+        font-size: 10vw;
+        padding: $aroundPadding;
+        display: block;
+        text-align: center;
+        margin:auto 5vw;
+        strong{
+            color:$primaryColor;
+        }
+    }
+}
+.author h1{
+    color: $backColor;
+    font-family: $cursiveFont;
+    text-align: center;
+    padding: 0 2.5vh;
+    text-shadow: 0 0 5vh $primaryColor;
+    &:first-letter{
+        font-family: $boldFont;
+        color:$primaryColor;
+    }
+}
+.circle{
+    width:100%;
+    margin-top: 5vw;
+    position: relative;
+    img{
+        display: block;
+        border-radius: 50%; 
+        margin: 0 auto;
+        border: 3px solid $primaryColor;
+        filter:brightness(70%);
+        cursor:pointer;
+        width: 80%;
+        transition: .3s;
+        &:hover+div{
+            opacity: 1;
+            transform: translateY(80%);
+        }
+        &:hover{
+            filter:brightness(40%);
+            border: 3px solid lighten($primaryColor, 10);
+        }
+    }
+    div{
+        width:100%;
+        transition: .3s;
+        font-family: $boldFont;
+        color:$primaryColor;
+        opacity: 0;
+        top:50%;
+        position: absolute;
+        transform: translateY(-80%);
+        text-align: center;
+    }
+    
+}
+
+.author-description{
+    color: $primaryColor;
+    font-family: $cursiveFont;
+    padding: $aroundPadding;
+    text-align: justify;
+    text-align-last: center;
+    margin: 10vw 5vw;
+}
+
+.maps{
+    width: 100%;
+    iframe{
+        width: 100%;
+        height: 40vh;
+    }
+}
+footer{
+    font-family: $cursiveFont;
+    color: $backColor;
+}
+.contact{
+    background-color: #555555;
+    padding: $aroundPadding;
+    .phone-section{
+        margin: 0 auto;
+        justify-content: flex-end;
+        align-items: center;
+        text-transform: uppercase;
+        display: flex;
+        margin: 2vw;
+        font-size: 5vw;
+        i{
+            font-size: 8vw;
+            margin-right: 6vw;
+        }
+    }
+    .social-section{
+        @extend .phone-section;
+        justify-content: flex-start;
+        i{
+            margin-left: 6vh;
+        }
+    }
+}
+
+.footer{
+    text-align: center;
+    background-color: #121212;
+    padding: 2.5vh;
+}
+
+@media #{$PC}{
+    .navbar{
+        width: 50%;
+        display: flex;
+        li{
+        margin: 1vh 3vh;
+        padding: 2vh;
+        }    
+    }
+
+    .searchbar{
+        display: block;
+        width: 50%;
+        margin-right: 5vh;
+        input{
+            background-image: url(../img/search-icon.png);
+            background-position: 6%;
+            background-size: 10%;
+            background-repeat: no-repeat;
+            @include borderRadius(10px);
+            border: none;
+            padding: .3vw;
+            float: right;
+            text-align: center;
+        }    
+        input:after{
+        clear:both;
+        }
+    }
+    .main-image{
+        height: 90vh;
+
+        .logo{
+            font-size:10vh;
+        }
+        button{
+            position:absolute;
+            bottom:5vh;
+            background: #000;
+            width: 25%;
+        }
+    }
+    .main-intro{
+        float:left;
+        width: 50%;
+        font-size: $fontSizePC;
+        .stars{
+            font-size: ($fontSizePC * 2);
+        }
+        h1{
+            display: block;
+        }
+    }
+    .aside{
+        float: left;
+        display: block;
+        color:$primaryColor;
+        padding: ($aroundPadding / 2);
+        @include borderRadius(2px);
+        box-shadow: 0 0 2px 2px $backColor;
+        font-size: ($fontSizePC / 1.5);
+        @extend .main-intro;
+        position: relative;
+        div{
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid $backColor;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            position: absolute;
+            bottom:15px;
+            left:-40px;
+        }
+    }
+    
+    .images-gallery{
+        display: flex;
+        padding-top: 0;
+        .card{
+            width: 50%;
+            position: static;
+        } 
+        img{
+            width: 100%;
+        }
+        h2{
+            color:$primaryColor;
+            font-family: $boldFont;
+            text-align: center;
+            position: static;
+            padding: ($aroundPadding / 3);
+        }
+        span{
+            display: block;
+            font-size: $fontSizePC;
+            padding: ($aroundPadding /3 );
+        }
+    }
+    .author{
+        display: flex;
+     img{
+        width: 50%;
+     } 
+        .author-description,.circle{
+            margin: 0;
+        }
+        q,cite{
+            display: block;
+        }
+        cite{
+            margin-top: 2vh;
+            width: 100%;
+        }
+    }
+    
+    .maps iframe{
+        height: 70vh;
+    }
+    .contact {
+        padding: ($aroundPadding / 5);
+        .phone-section,.social-section{
+        font-size: ($fontSizePC * 1.2);
+    }
+    }
+}
